@@ -97,15 +97,15 @@ html {
 
 #inicio .contenido .presentacion {
   height: 100vh;
+  width: 90%;
   margin: auto;
-  padding: 100px 50px;
   color: antiquewhite;
   display: flex;
 }
 
 #inicio .contenido .presentacion .contenedor-foto {
   max-width: 400px;
-  margin-right: 80px;
+  margin: auto;
 }
 
 #inicio .contenido .presentacion .contenedor-foto img {
@@ -113,6 +113,11 @@ html {
   width: 100%;
   border-radius: 20px;
   background-color: antiquewhite;
+}
+
+#inicio .contenido .presentacion .sobremi {
+  margin: auto;
+  margin-left: 20px;
 }
 
 #inicio .contenido .presentacion .sobremi h2 {
@@ -190,7 +195,7 @@ html {
 }
 
 #estudios .fila .estudio {
-  width: 30%;
+  max-width: 350px;
   background-color: #fff;
   padding: 30px;
   margin: 0 5px;
@@ -447,5 +452,30 @@ html {
   }
   #inicio .contenido header .contenido-header .log {
     display: none;
+  }
+  #inicio .contenido .sobremi {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+  }
+    #inicio .contenido .presentacion .contenedor-foto {
+    max-width: 200px;
+    margin: auto;
+  }
+  #inicio .contenido .presentacion .contenedor-foto img {
+    padding: 2px;
+  }
+  #inicio .contenido .presentacion .sobremi h2 {
+    font-size: 35px;
+  }
+  #experiencias .fila,
+  #estudios .fila,
+  #portfolio .fila {
+    display: block;
+  }
+  #experiencias .fila .experiencia,
+  #estudios .fila .estudio,
+  #portfolio .fila .proyecto {
+    margin: 10px auto;
   }
 }
